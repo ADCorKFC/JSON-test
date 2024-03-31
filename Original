@@ -1,6 +1,5 @@
 {
-	"purchaseOrderHeader":
-	[
+	"purchaseOrderHeader": [
 		{
 			"department": "003",
 			"purchaseOrderNumber": 5904,
@@ -17,8 +16,8 @@
 			"season": "AW23",
 			"POApprovalDate": 20230713,
 			"intakeType": "Firm",
-           	        "3rdPartyPONumber": "",
-			"PODropHeader":[ 
+           	        "thirdPartyPONumber": "",
+			"PODropHeader": [ 
 				{
 					"dropNumber": 1,
 					"dropStatus": "Approved",
@@ -34,12 +33,12 @@
 					"shippingVia_2": "",
 					"pointOfOrigin": "",
 					"landed_cost_factor": 24,
-					"slippgaeWeeks": 2,
-					"slippgaeDeliveryDate": 20230904,
+					"slippageWeeks": 2,
+					"slippageDeliveryDate": 20230904,
 					"appointmentNumber": 13797001,
 					"deliveryReference": "MINT1",
 					"appointmentDate": 20230814,
-					"appointmentTime": 12:00,
+					"appointmentTime": "12:00",
 					"appointStatus": "A",
 					"appointmentType": "R",
 					"PODropLineDetail": [
@@ -57,10 +56,11 @@
 							"retailUnitValue": 69.00,
 							"dropExtendedCostBase": 1058.20,
 							"dropExtendedCostSupplierCurrency": 1058.20,
-							"dropOustandingQuantity": 65,
+							"dropOutstandingQuantity": 65,
 							"dropOutstandingCostBase": 1058.20,
-							"dropOutstandingReatilBase": 4485.00						
+							"dropOutstandingRetailBase": 4485.00						
 						},
+						{
 							"lineNumber": 2,
 							"styleNumber": 29246,
 							"colour": "BLUE",
@@ -74,10 +74,11 @@
 							"retailUnitValue": 69.00,
 							"dropExtendedCostBase": 1465.20,
 							"dropExtendedCostSupplierCurrency": 1465.20,
-							"dropOustandingQuantity": 90,
+							"dropOutstandingQuantity": 90,
 							"dropOutstandingCostBase": 1465.20,
-							"dropOutstandingReatilBase": 6210.00
+							"dropOutstandingRetailBase": 6210.00
 						},
+						{
 							"lineNumber": 3,
 							"styleNumber": 29246,
 							"colour": "BLUE",
@@ -91,10 +92,11 @@
 							"retailUnitValue": 69.00,
 							"dropExtendedCostBase": 1139.60,
 							"dropExtendedCostSupplierCurrency": 1139.60,
-							"dropOustandingQuantity": 70,
+							"dropOutstandingQuantity": 70,
 							"dropOutstandingCostBase": 1139.60,
-							"dropOutstandingReatilBase": 4830.00
+							"dropOutstandingRetailBase": 4830.00
 						},
+						{
 							"lineNumber": 4,
 							"styleNumber": 29246,
 							"colour": "BLUE",
@@ -108,10 +110,11 @@
 							"retailUnitValue": 69.00,
 							"dropExtendedCostBase": 651.20,
 							"dropExtendedCostSupplierCurrency": 651.20,
-							"dropOustandingQuantity": 40,
+							"dropOutstandingQuantity": 40,
 							"dropOutstandingCostBase": 651.20,
-							"dropOutstandingReatilBase": 2760.00
+							"dropOutstandingRetailBase": 2760.00
 						},
+						{
 							"lineNumber": 5,
 							"styleNumber": 29246,
 							"colour": "BLUE",
@@ -125,11 +128,9 @@
 							"retailUnitValue": 69.00,
 							"dropExtendedCostBase": 569.80,
 							"dropExtendedCostSupplierCurrency": 569.80,
-							"dropOustandingQuantity": 35,
+							"dropOutstandingQuantity": 35,
 							"dropOutstandingCostBase": 569.80,
-							"dropOutstandingReatilBase": 2415.00
-						}	
+							"dropOutstandingRetailBase": 2415.00
+						}
 					]
-		}		
-	]
-}
+				}		
